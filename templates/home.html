@@ -1,0 +1,108 @@
+<html>
+
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+<!-- Nathan did the Navbar and everything on the home page -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img src="https://www.powayusd.com/PUSD/media/DNHS/images/DNHSLogo.png?ext=.png" alt="del norte" style="width:49px;height:50px;"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="templates/socials.html">Socials</a></li>
+        <li><a href="templates/hello.html">Hello Series</a></li>
+        <li><a href="templates/flask.html">Flask Series</a></li>
+        <li><a href="templates/games.html">Games</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="https://www.youtube.com/watch?v=ttxXEIgiLFA">Youtube Explanation</a></p>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1>Welcome</h1>
+      <p>We are a group of Del Norte High School Students who are learning how to code in the AP CS Principles class. We have learned how to code in python and are currently learning how to code in HTML. </p>
+      <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="https://1z8qih1l8tj53pg8zi3f9dif-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Del-Norte-HS-Poway-K12-Structural-San-Diego-1200x600.jpg" alt="del norte" style="width:600px;height:300px;">  
+    </a>
+  </div>
+</div>
+      <hr>
+      <h3>Creators</h3>
+      <p>Nathan Lee, Ryan Luo, Aiden Tung, Luke Manning, and Jaideep Bollu</p>
+    </div>
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <a><img src="https://data.nssmag.com/images/galleries/18043/code-matrix.jpg" alt="code" style="width:150px;height:50px;"></a>
+      </div>
+      <div class="well">
+        <a><img src="https://www.heidelberg.edu/sites/default/files/styles/865width/public/images/program-images/computer-science-2.jpg?itok=9N2z12gj" alt="code" style="width:150px;height:50px;"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>AP CS Principles period 4</p>
+</footer>
+
+</body>
+</html>
+
