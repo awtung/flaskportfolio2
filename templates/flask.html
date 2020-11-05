@@ -4,6 +4,12 @@
 {% extends "base.html" %}
 {% block title %}Index{% endblock %}
 {% block head %}
+{{ super() }}
+<style type="text/css">
+        .important { color: #336699; }
+    </style>
+{% endblock %}
+{% block content %}
 
     
   <body style="background-color:powderblue">
@@ -56,7 +62,7 @@
    <div class="product" style="margin-top: 5%;">
               <div class="row" style="padding: 10%; padding-top: 5%; padding-bottom: 5%;">
 
-                  <div class="col-4" >
+                  <div> class="col-4" >
                       <style>
       .button {
         display: inline-block;

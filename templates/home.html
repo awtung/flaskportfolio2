@@ -1,51 +1,58 @@
-<!DOCTYPE html>
 
-<html lang="en">
+{% extends "base.html" %}
+{% block title %}Index{% endblock %}
+{% block head %}
+    {{ super() }}
+    <style type="text/css">
+         .important { color: #336699; }
+       </style>
+{% endblock %}
+{% block content %}
+    <p class="container-fluid text-center">
+      <p class="row content">
+        <p class="col-sm-2 sidenav">
+          <p><a href="https://docs.google.com/document/d/15N28BJt0ZsNPbLnpXXgCAtXb7aX9lWnpEV9f6RTVENY/edit">Self Grades for the Week</a></p>
+        </p>
+        <p class="col-sm-8 text-left">
+          <h1>Welcome</h1>
+          <p>We are a group of Del Norte High School Students who are learning how to code in the AP CS Principles class. We have learned how to code in python and are currently learning how to code in HTML. </p>
+          <p class="responsive">
+      <p class="gallery">
+        <a target="_blank" href="img_5terre.jpg">
+          <img src="https://1z8qih1l8tj53pg8zi3f9dif-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Del-Norte-HS-Poway-K12-Structural-San-Diego-1200x600.jpg" alt="del norte" style="width:600px;height:300px;">
+        </a>
+      </p>
+    </p>
+          <hr>
+          <h3>Creators</h3>
+          <p>Nathan Lee, Ryan Luo, Aiden Tung, Luke Manning, and Jaideep Bollu</p>
+        </p>
+        <p class="col-sm-2 sidenav">
+          <p class="well">
+            <a><img src="https://data.nssmag.com/images/galleries/18043/code-matrix.jpg" alt="code" style="width:150px;height:50px;"></a>
+          </p>
+          <p class="well">
+            <a><img src="https://www.heidelberg.edu/sites/default/files/styles/865width/public/images/program-images/computer-science-2.jpg?itok=9N2z12gj" alt="code" style="width:150px;height:50px;"></a>
+          </p>
+        </p>
+      </p>
+    </p>
 
-  
-<div class="container-fluid text-center">    
-  <div class="row content">
-    <div class="col-sm-2 sidenav">
-      <p><a href="https://docs.google.com/document/d/15N28BJt0ZsNPbLnpXXgCAtXb7aX9lWnpEV9f6RTVENY/edit">Self Grades for the Week</a></p>
+    <footer class="container-fluid text-center">
+      <p>AP CS Principles period 4</p>
+    </footer>
+
+    </body>
+    <body>
+
+
     </div>
-    <div class="col-sm-8 text-left"> 
-      <h1>Welcome</h1>
-      <p>We are a group of Del Norte High School Students who are learning how to code in the AP CS Principles class. We have learned how to code in python and are currently learning how to code in HTML. </p>
-      <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img_5terre.jpg">
-      <img src="https://1z8qih1l8tj53pg8zi3f9dif-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Del-Norte-HS-Poway-K12-Structural-San-Diego-1200x600.jpg" alt="del norte" style="width:600px;height:300px;">  
-    </a>
-  </div>
-</div>
-      <hr>
-      <h3>Creators</h3>
-      <p>Nathan Lee, Ryan Luo, Aiden Tung, Luke Manning, and Jaideep Bollu</p>
-    </div>
-    <div class="col-sm-2 sidenav">
-      <div class="well">
-        <a><img src="https://data.nssmag.com/images/galleries/18043/code-matrix.jpg" alt="code" style="width:150px;height:50px;"></a>
-      </div>
-      <div class="well">
-        <a><img src="https://www.heidelberg.edu/sites/default/files/styles/865width/public/images/program-images/computer-science-2.jpg?itok=9N2z12gj" alt="code" style="width:150px;height:50px;"></a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<footer class="container-fluid text-center">
-  <p>AP CS Principles period 4</p>
-</footer>
-
-</body>
-<body>
-
-
-</div>
-</body>
+    </body>
 
 
 
 
-</html>
+    </html>
+
+{% endblock %}
 
